@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, user-scalable=no, 
+                initial-scale=1.0, maximum-scale=1, minimum-scale=1.0">
+        
+
+        <title>Selecciona tus síntomas</title>
+        <link rel="shortcut icon" type="image/png" href="../../../img/docqui.png">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        
+        
+        
+	</head>
+	<body>
+                <header>
+                        <div class="menu-toggler">
+                            <div class="bar half start"></div>
+                            <div class="bar"></div>
+                            <div class="bar half end"></div>
+                        </div>
+                        <!--Aqui esta el menu despegable con sus links-->
+                        <nav class="top-nav">
+                            <ul class="nav-list">
+                                <li>
+                                    <a href="../../inicio/index.html" class="nav-link"> Home </a>
+                                </li>
+                                <li>
+                                    <a href="../../informate/index.html" class="nav-link"> Infórmate </a>
+                                </li>
+                                <li>
+                                    <a href="../../medicos/index.html" class="nav-link"> Contacto médico </a>
+                                </li>
+                                <li>
+                                    <a href="../../equipo/index.html" class="nav-link"> Equipo de trabajo </a>
+                                </li>
+                                <li>
+                                    <a href="../../politicas/index.html" class="nav-link"> Políticas de uso </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="landing-text">
+                            <h1> Síntomas </h1>
+                            <h6>Selecciona tus síntomas</h6>
+                        </div>
+                    </header>
+
+                <div class="container-check">
+                                <!--h1> Selecciona tus síntomas </h1-->
+                                <br>
+                                <input type="checkbox" id="uno" style="visibility: hidden;">
+                                <label for="uno">
+                                        <span></span>
+                                        Volumen
+                                </label>
+
+                                <input type="checkbox" id="dos" style="visibility: hidden;">
+                                <label for="dos">
+                                        <span></span>
+                                        Dolor 
+                                </label>
+
+                                <input type="checkbox" id="tres" style="visibility: hidden;">
+                                <label for="tres">
+                                        <span></span>
+                                        Inflamaci&oacute;n
+                                </label>
+
+                                <input type="checkbox" id="cuatro" style="visibility: hidden;">
+                                <label for="cuatro">
+                                        <span></span>
+                                        Sensibilidad
+                                </label>
+
+                                <input type="checkbox" id="cinco" style="visibility: hidden;">
+                                <label for="cinco">
+                                        <span></span>
+                                        Fiebre
+                                </label>
+                        </div>
+
+                        <!-- boton -->
+                        <div class="btn">
+                                <button class="button" id="boton-continuar-diagnostico"> Continuar </button>
+                                <button class="button1" onclick="window.location.href='../../glosario/index.html'"> Identifica tus Síntomas </button>
+                               
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <!--footer class="copyright">
+                                <div class="up" id="up">
+                                    <i class="fas fa-chevron-up"></i>
+                                </div>
+                                <p>&copy;ESCOM IPN | TT2 B-020 </p>
+                            </footer-->
+
+                        </body>
+                        
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="js/checkboxUno.js"></script>
+        <script src="main.js"></script>
+    
+	
+</html>

@@ -1,0 +1,94 @@
+/* Botones De Consulta e informacion converti los botones en clases y conserve las propiedades de 
+button */
+.button{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button1{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button2{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+ button{
+     background: none;
+     color: rgb(255, 255, 255);
+     width: 250px;
+     height: 50px;
+     border: 3px solid #00c3ff;
+     font-size: 19px;
+     border-radius: 4px;
+     transition: .6s;
+     overflow: hidden;
+ }
+
+ button:focus{
+     outline: none;
+ }
+
+ button:before {
+     content: '';
+     display: block;
+     position: absolute;
+     background: rgba(255, 255, 255, 0.5);
+     width: 60px;
+     height: 100%;
+     left: 0;
+     top: 0;
+     opacity: .5s;
+     filter: blur(30px);
+     transform: translate(-130) skew(-15deg);
+ }
+
+ button:after{
+     content: '';
+     display: block;
+     position: absolute;
+     background: rgba(255, 255, 255, .2);
+     width: 30px;
+     height: 100%;
+     left: 30px;
+     top: 0;
+     opacity: 0;
+     filter: blur(30px);
+     transform: translate(-100px) scaleX(-15deg);
+ }
+
+ button:hover{
+     background: #0084c2;
+     cursor: pointer;
+ }
+
+ button:hover:before{
+     transform: translate(300px) skewX(-15deg);
+     opacity: .6;
+     transition: .7s;
+
+ }
+
+ button:hover:after {
+     transform: translate(300px) skewX(-15deg);
+     opacity: 1;
+     transition: .7s;
+ }
+ /* Segundo Boton*/
+
+ 
+
+ 
+
+ 
+ 
+
+ 

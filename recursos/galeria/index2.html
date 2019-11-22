@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, user-scalable=no, 
+                initial-scale=1.0, maximum-scale=1, minimum-scale=1.0">
+        
+
+        <title> Galeria</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" type="image/png" href="../../img/docqui.png">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/swiper.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        
+	</head>
+	<body>
+                <header>
+                        <nav class="menu">
+                                <div class="container-menu">
+                                        <div class="logo">
+                                                <div class="logo-name">
+                                                         <img src="../../img/docqui.png" alt="">
+                                                         <a href="#"> Pre-Diagnóstico </a>
+
+                                        </div> 
+                                         <div class="icon-menu">
+                                                <a href="#" id="btn-menu" class="btn-menu"><span class="fa fa-bars"></span> 
+                                                </a>
+
+                                        </div>
+                                        </div>           
+
+                                </div>
+                                <!-- Aqui estan los titulos del menu despegable solo copiar u pehar una lista para
+                                tener otra opcion-->
+                                <div class="menu-link">
+                                        <ul>
+                                        <li><a href="../inicio/index.html"> Inicio </a></li>
+                                        <li><a href="../menu/nosotros/index.html"> Sobre Nosotros </a></li>
+                                        <li><a href="../menu/politicas/index.html"> Políticas de uso </a></li>
+                                        </ul>
+                                </div>
+
+                        </nav>    
+                </div>
+
+                
+                </header>
+                
+                <div class="container">
+                                <span class="text1"> Selecciona </span>
+                                <span class="text2"> un padecimiento </span>
+                          
+                              </div>
+                
+                <!--section class="banner">
+                                <div class="bg-banner"></div>
+                                <div class="bg-details">
+                                                <div class="details">
+                                                        <h1> Consulta tus sintomas</h1>
+                                                        <a href="#">Consulta</a>
+                                                </div>
+                                                
+                                </div>
+                                <div class="bg-banner"></div>
+                                <div class="bg-details">
+                                                <div class="details">
+                                                        <h1> Informate </h1>
+                                                        <a href="#">informate</a>
+                                                </div>
+                                                
+                                </div>
+
+                section -->
+          <!-- Swiper -->
+          <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="imgBx">
+                                    <a href="../checkbox/index.html">
+                              <img src="./img/izquierdo.gif"></a>
+                              </div>
+                              <div class="details">
+                              <h3> Dolor testículo izquierdo <br><span> Tap en la imagen </span></h3>
+                              </div>
+                             </div>
+              
+                             <div class="swiper-slide">
+                                      <div class="imgBx">
+                                              <a href="../checkbox/index.html">
+                                        <img src="./img/derecho.gif"></a>
+                                        </div>
+                                        <div class="details">
+                                        <h3> Dolor Testículo derecho <br><span> Tap en la imagen </span></h3>
+                                        </div>
+                                       </div>
+              
+                                       <div class="swiper-slide">
+                                                <a href="../checkbox/sangrado_orina/index.html">
+                                                      <div class="imgBx">
+                                                              
+                                                        <img src="./img/hematuria.gif"></a>
+                                                        </div>
+                                                        <div class="details">
+                                                        <h3> Sangrado en la orina <br><span> Tap en la imagen </span></h3>
+                                                        </div>
+                                                       </div>
+              
+                                                       <div class="swiper-slide">
+                                                                      <div class="imgBx">
+                                                                        <a href="../checkbox/prediagnostico/zona_inguinal/index.html">
+                                                                        <img src="./img/zonainguinal.gif"></a>
+                                                                        </div>
+                                                                        <div class="details">
+                                                                        <h3> Dolor zona inguinal <br><span>Docqui</span></h3>
+                                                                        </div>
+                                                                       </div>
+              
+                                                                       <!--div class="swiper-slide">
+                                                                                      <div class="imgBx">
+                                                                                                <a href="../checkbox/prueba_checbox/index.html">
+                                                                                        <img src="./img/docqui.gif"></a>
+                                                                                        </div>
+                                                                                        <div class="details">
+                                                                                        <h3> Prueba Checkbox <br><span>Docqui</span></h3>
+                                                                                        </div>
+                                                                                       </div-->
+              
+                      </div>
+                     <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+              </div>
+              <br>
+                             
+              
+              
+              
+                      <script type="text/javascript" src="./js/swiper.min.js"></script>
+                      <script src="js/jquery-3.3.1.min.js"></script>
+                      <script src="js/menu.js"></script>
+                      
+                      <!-- Initialize Swiper -->
+                <script>
+                              var swiper = new Swiper('.swiper-container', {
+                                effect: 'coverflow',
+                                grabCursor: true,
+                                centeredSlides: true,
+                                slidesPerView: 'auto',
+                                coverflowEffect: {
+                              // aqui en el rotate esta cuanto queremos que se muevan las fotos estaba en 500 el depth//
+                                  rotate: 50,
+                                  stretch: 0,
+                                  depth: 350,
+                                  modifier: 4,
+                                  slideShadows : true,
+                                },
+                                pagination: {
+                                  el: '.swiper-pagination',
+                                },
+                              });
+                            </script>
+        
+	</body>
+</html>

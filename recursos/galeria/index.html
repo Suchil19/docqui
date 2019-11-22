@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="viewport" content="width=device-width, user-scalable=no, 
+                initial-scale=1.0, maximum-scale=1, minimum-scale=1.0">
+    <title>Luis Suchil</title>
+    <link rel="shortcut icon" type="image/png" href="../../img/docqui.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="main.css">
+    
+    
+    
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <!--Aqui esta el menu despegable con sus links-->
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="../inicio/index.html" class="nav-link"> Home </a>
+                </li>
+                <li>
+                    <a href="../informate/index.html" class="nav-link"> Infórmate </a>
+                </li>
+                <li>
+                    <a href="../medicos/index.html" class="nav-link"> Contacto médico</a>
+                </li>
+                <li>
+                    <a href="../equipo/index.html" class="nav-link"> Equipo de trabajo </a>
+                </li>
+                <li>
+                    <a href="../politicas/index.html" class="nav-link"> Politícas de uso </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1> DOCQUI </h1>
+            <h6>Selecciona el área afectada</h6>
+        </div>
+    </header>
+
+    <body>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="imgBx">
+                        <a href="../checkbox/testiculos/index.html">
+                  <img src="./img/izquierdo.gif"></a>
+                  </div>
+                  <div class="details">
+                  <h3> Testículo izquierdo <br><span> Tap en la imagen </span></h3>
+                  </div>
+                 </div>
+  
+                 <div class="swiper-slide">
+                          <div class="imgBx">
+                                  <a href="../checkbox/testiculos/index.html">
+                            <img src="./img/derecho.gif"></a>
+                            </div>
+                            <div class="details">
+                            <h3> Testículo derecho <br><span> Tap en la imagen </span></h3>
+                            </div>
+                           </div>
+  
+                           <div class="swiper-slide">
+                                    <a href="../checkbox/hematuria/index.html">
+                                          <div class="imgBx">
+                                                  
+                                            <img src="./img/hematuria.gif"></a>
+                                            </div>
+                                            <div class="details">
+                                            <h3> Sangrado en la orina <br><span> Tap en la imagen </span></h3>
+                                            </div>
+                                           </div>
+  
+                                           <div class="swiper-slide">
+                                                          <div class="imgBx">
+                                                            <a href="../checkbox/hernia/index.html">
+                                                            <img src="./img/zonainguinal.gif"></a>
+                                                            </div>
+                                                            <div class="details">
+                                                            <h3> Dolor zona inguinal <br><span>Docqui</span></h3>
+                                                            </div>
+                                                           </div>
+  
+                                                           <!--div class="swiper-slide">
+                                                                          <div class="imgBx">
+                                                                                    <a href="../checkbox/prueba_checbox/index.html">
+                                                                            <img src="./img/docqui.gif"></a>
+                                                                            </div>
+                                                                            <div class="details">
+                                                                            <h3> Prueba Checkbox <br><span>Docqui</span></h3>
+                                                                            </div>
+                                                                           </div-->
+  
+          </div>
+         <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+  </div>
+  <br>
+                 
+  
+  
+  
+          <script type="text/javascript" src="./js/swiper.min.js"></script>
+          <script src="js/jquery-3.3.1.min.js"></script>
+          <script src="js/menu.js"></script>
+          
+          <!-- Initialize Swiper -->
+
+   
+    
+    <!--footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy;ESCOM IPN | TT2 B-020 </p-->
+    </footer>
+    <script type="text/javascript" src="./js/swiper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+        // aqui en el rotate esta cuanto queremos que se muevan las fotos estaba en 500 el depth//
+            rotate: 50,
+            stretch: 0,
+            depth: 350,
+            modifier: 4,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+</body>
+</html> 
